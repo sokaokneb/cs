@@ -12,7 +12,7 @@ import org.springframework.context.annotation.Bean;
 public class Application {
 
     @Autowired
-    private LogReader logReader;
+    LogReader logReader;
 
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
